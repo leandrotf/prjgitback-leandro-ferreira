@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "prjslnback.API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "auth",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://*:9092;https://*:9093"
+      },
+      "applicationUrl": "https://localhost:9093;http://localhost:9092"
+    }
+  }
+}
